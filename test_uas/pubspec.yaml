@@ -1,0 +1,31 @@
+name: test_uas
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  build_runner: ^2.4.11
+  flutter:
+    sdk: flutter
+  fluttertoast: ^8.2.6
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  hive_generator: ^2.0.1
+  timeago: ^3.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - lib/assets/
+  fonts:
+  - family: Inter
+    fonts:
+    - asset: lib/assets/Inter-Regular.ttf
